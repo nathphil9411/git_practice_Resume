@@ -3,3 +3,57 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body {
+	background-color: gray;
+}
+.container {
+	display: flex;
+	min-width: 400px;
+	width: 80%;
+	margin: 3em auto;
+	background-color: white;
+	border-radius: 0.3em;
+}
+header {
+	padding: 0.5em 0.5em;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	color: white;
+	flex-basis: 40%;
+	border-top-left-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+}
+header section {
+	margin-top: 1.5rem;
+
+	line-height: 1.5;
+	text-align: center;
+	font-size: 0.85em;
+	font-weight: lighter;
+}
+label {
+	display: block;
+}
+figure {
+	text-align: center;
+	font-size: 0.6em;
+}
+img {
+	border-radius: 50%;
+}
+
+main {
+	padding: 0.5em 3em;
+}
+h2 {
+	text-transform: uppercase;
+}
+
+main section {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	line-height: 1.5;
+}
